@@ -11,8 +11,8 @@ import About from './Pages/About';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Contact from './Pages/Contact';
-import Treatment from './Pages/Treatment';
 import AppointMent from './Pages/AppointMent';
+import Treatment from './Pages/Treatment';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
       },
       {
         path: '/about',

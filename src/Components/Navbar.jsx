@@ -10,10 +10,10 @@ const Navbar = () => {
                     <img className="w-10 bg-transparent " src={logo} alt="logo" />
                 </div>
                 <NavLink to='/'>
-                    <a className="font-bold text-xl">Dental-Hub</a>
+                    <a className="font-bold text-2xl">Dental-Hub</a>
                 </NavLink>
             </div>
-            <div className="flex items-center gap-5 ">
+            <div className="flex items-center gap-5 font-semibold ">
                 <NavLink to='/'>
                     <a className="link link-hover"> Home</a>
                 </NavLink>
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <a className="link link-hover"> About</a>
                 </Link>
                 <Link to='/treatment'>
-                    <a className="link link-hover"> Treatments</a>
+                    <a className="link link-hover"> Treatment</a>
                 </Link>
                 <Link to='/appointment'>
                     <a className="link link-hover"> Appointment</a>

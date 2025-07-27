@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Teeth Whitening",
+        "slug": "teeth-whitening",
+        "description": "Brighten your smile with our professional in-office and take-home teeth whitening treatments.",
+        "image": "/images/services/teeth-whitening.jpg",
+        "price": "$120",
+        "features": [
+            "Safe and effective procedure",
+            "Visible results in one session",
+            "Customized treatment options"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Dental Implants",
+        "slug": "dental-implants",
+        "description": "Restore missing teeth with natural-looking and durable dental implants for long-lasting confidence.",
+        "image": "/images/services/dental-implants.jpg",
+        "price": "$900 per implant",
+        "features": [
+            "Titanium root placement",
+            "Permanent and stable solution",
+            "Preserves bone structure"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Braces & Orthodontics",
+        "slug": "braces-orthodontics",
+        "description": "Correct misaligned teeth and bites with modern orthodontic solutions including metal braces and clear aligners.",
+        "image": "/images/services/braces.jpg",
+        "price": "Starting at $1500",
+        "features": [
+            "Traditional and invisible braces",
+            "Personalized treatment plan",
+            "Free initial consultation"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Root Canal Treatment",
+        "slug": "root-canal-treatment",
+        "description": "Relieve tooth pain and save damaged teeth with expert root canal therapy performed with precision.",
+        "image": "/images/services/root-canal.jpg",
+        "price": "$250 - $500",
+        "features": [
+            "Painless and efficient",
+            "High success rate",
+            "Performed under local anesthesia"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Dental Cleaning & Polishing",
+        "slug": "dental-cleaning",
+        "description": "Keep your teeth and gums healthy with regular cleaning and polishing by our skilled hygienists.",
+        "image": "/images/services/cleaning.jpg",
+        "price": "$60 per session",
+        "features": [
+            "Plaque and tartar removal",
+            "Fluoride treatment",
+            "Fresh breath and smooth finish"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Pediatric Dentistry",
+        "slug": "pediatric-dentistry",
+        "description": "Gentle and fun dental care for children to ensure a lifetime of healthy smiles.",
+        "image": "/images/services/kids-dentistry.jpg",
+        "price": "Varies by treatment",
+        "features": [
+            "Child-friendly environment",
+            "Preventive and restorative care",
+            "Fluoride and sealants available"
+        ]
+    }
+]

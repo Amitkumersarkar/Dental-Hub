@@ -1,9 +1,8 @@
 
 const Treatment = () => {
-
     return (
         <div>
-            <h2>treatment</h2>
+            <h2>treatment page</h2>
         </div>
     );
 };
