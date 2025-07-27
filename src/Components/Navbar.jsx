@@ -1,15 +1,19 @@
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../public/assets/logo.png"
 
 const Navbar = () => {
 
     return (
-        <div className="flex justify-between items-center  navbar bg-base-100 shadow-sm">
-            <div >
+        <div className=" flex justify-between items-center  bg-cyan-600 mb-5 rounded-xl navbar shadow-sm">
+            <div className="flex justify-between items-center gap-1">
+                <div>
+                    <img className="w-10 bg-transparent " src={logo} alt="logo" />
+                </div>
                 <NavLink to='/'>
-                    <a className="btn btn-ghost text-xl">Dental-Hub</a>
+                    <a className="font-bold text-xl">Dental-Hub</a>
                 </NavLink>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 ">
                 <NavLink to='/'>
                     <a className="link link-hover"> Home</a>
                 </NavLink>
@@ -40,10 +44,12 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li>
-                            <a className="justify-between">
-                                Profile
-                                <span className="badge">New</span>
-                            </a>
+                            <Link to='/'>
+                                <a className="flex justify-between text-center gap-2">
+                                    Profile
+                                    <span className="badge">New</span>
+                                </a>
+                            </Link>
                         </li>
                         <li>
                             <Link to='/signup'>SignUp</Link>

@@ -8,7 +8,7 @@ const SignUp = () => {
                 <div className="text-center">
                     <h1 className="text-5xl font-bold">SignUp now!</h1>
                     <p className="py-6">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda.
+                        To Access your personalized dashboard Then Sign Up First.
                     </p>
                 </div>
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
