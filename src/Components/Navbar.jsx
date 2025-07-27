@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">Dental-Hub</a>
             </div>
-            <div className="flex flex-1 list-none gap-4">
+            <div className="flex flex-1 mr-50 list-none gap-4">
 
                 <li >
                     <Link to='/'>
@@ -19,6 +19,17 @@ const Navbar = () => {
                         <a className="link link-hover">About</a>
                     </Link>
                 </li>
+                <li >
+                    <Link to='/'>
+                        <a className="link link-hover">Treatments</a>
+                    </Link>
+                </li>
+                <li >
+                    <Link to='/'>
+                        <a className="link link-hover">Appointment</a>
+                    </Link>
+                </li>
+
                 <li >
                     <Link to='/contact'>
                         <a className="link link-hover">Contact</a>
