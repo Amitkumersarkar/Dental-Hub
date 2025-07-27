@@ -1,10 +1,29 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl">Dental-Hub</a>
+            </div>
+            <div className="flex flex-1 list-none gap-4">
+
+                <li >
+                    <Link to='/'>
+                        <a className="link link-hover">Home</a>
+                    </Link>
+                </li>
+                <li >
+                    <Link to='/about'>
+                        <a className="link link-hover">About</a>
+                    </Link>
+                </li>
+                <li >
+                    <Link to='/contact'>
+                        <a className="link link-hover">Contact</a>
+                    </Link>
+                </li>
             </div>
             <div className="flex gap-2">
                 <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
@@ -25,8 +44,12 @@ const Navbar = () => {
                                 <span className="badge">New</span>
                             </a>
                         </li>
-                        <li><a>Settings</a></li>
-                        <li><a>Logout</a></li>
+                        <li>
+                            <Link to='/signup'>SignUp</Link>
+                        </li>
+                        <li>
+                            <Link to='/login'>LogIn</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
