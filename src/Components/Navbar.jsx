@@ -1,18 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">Dental-Hub</a>
+                <NavLink to='/'>
+                    <a className="btn btn-ghost text-xl">Dental-Hub</a>
+                </NavLink>
             </div>
             <div className="flex flex-1 mr-50 list-none gap-4">
 
                 <li >
-                    <Link to='/'>
+                    <NavLink to='/'>
                         <a className="link link-hover">Home</a>
-                    </Link>
+                    </NavLink>
                 </li>
                 <li >
                     <Link to='/about'>
@@ -20,12 +22,12 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li >
-                    <Link to='/'>
+                    <Link to='/treatment'>
                         <a className="link link-hover">Treatments</a>
                     </Link>
                 </li>
                 <li >
-                    <Link to='/'>
+                    <Link to='/appointment'>
                         <a className="link link-hover">Appointment</a>
                     </Link>
                 </li>

@@ -11,6 +11,8 @@ import About from './Pages/About';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Contact from './Pages/Contact';
+import Treatment from './Pages/Treatment';
+import AppointMent from './Pages/AppointMent';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/treatment',
+        element: <Treatment></Treatment>
+      },
+      {
+        path: '/appointment',
+        element: <AppointMent></AppointMent>
       }
     ]
 
