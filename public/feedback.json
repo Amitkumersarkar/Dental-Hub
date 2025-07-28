@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Ahmed",
+        "photo": "/images/customers/sarah.jpg",
+        "rating": 5,
+        "feedback": "The staff was incredibly kind and professional. I had my teeth whitened and the results were amazing!",
+        "date": "2025-07-10",
+        "location": "Dhaka, Bangladesh"
+    },
+    {
+        "id": 2,
+        "name": "Jonathan Roy",
+        "photo": "/images/customers/jonathan.jpg",
+        "rating": 4,
+        "feedback": "Got a root canal done. I was nervous, but they made the process smooth and almost painless.",
+        "date": "2025-06-21",
+        "location": "Chattogram, Bangladesh"
+    },
+    {
+        "id": 3,
+        "name": "Mehjabin Khan",
+        "photo": "/images/customers/mehjabin.jpg",
+        "rating": 5,
+        "feedback": "As a mother, I loved how they handled my son's dental checkup. Very child-friendly environment!",
+        "date": "2025-05-14",
+        "location": "Rajshahi, Bangladesh"
+    },
+    {
+        "id": 4,
+        "name": "Arif Rahman",
+        "photo": "/images/customers/arif.jpg",
+        "rating": 4,
+        "feedback": "Professional team with modern equipment. Had braces installed and the whole journey has been great so far.",
+        "date": "2025-03-03",
+        "location": "Sylhet, Bangladesh"
+    },
+    {
+        "id": 5,
+        "name": "Farzana Yasmin",
+        "photo": "/images/customers/farzana.jpg",
+        "rating": 5,
+        "feedback": "Best dental experience ever! Clean clinic, polite doctors, and excellent service.",
+        "date": "2025-01-26",
+        "location": "Khulna, Bangladesh"
+    }
+]

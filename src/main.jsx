@@ -21,11 +21,22 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch("/public/service.json"),
+        // loader: () => fetch("/public/service.json"),
+        loader: async () => {
+          const servicesRes = await fetch("/public/service.json")
+          const servicesData = await servicesRes.json()
+          return { servicesData };
+        }
       },
       {
         path: '/about',
-        element: <About></About>
+        element: <About></About>,
+        // feedback data load here
+        loader: async () => {
+          const feedbackRes = await fetch("/public/feedback.json")
+          const feedbackData = await feedbackRes.json()
+          return { feedbackData };
+        }
       },
       {
         path: '/login',
@@ -47,7 +58,8 @@ const router = createBrowserRouter([
       {
         path: '/appointment',
         element: <AppointMent></AppointMent>
-      }
+      },
+      
     ]
 
   },
