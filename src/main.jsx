@@ -13,6 +13,8 @@ import SignUp from './Pages/SignUp';
 import Contact from './Pages/Contact';
 import AppointMent from './Pages/AppointMent';
 import Treatment from './Pages/Treatment';
+import ViewDetails from './Pages/ViewDetails';
+import Details from './Pages/Details';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,7 +61,20 @@ const router = createBrowserRouter([
         path: '/appointment',
         element: <AppointMent></AppointMent>
       },
-      
+      {
+        path: '/details',
+        element: <Details></Details>,
+        loader: async () => {
+          const details = await fetch('/public/viewDetails.json')
+          const moreDetails = await details.json()
+          return { moreDetails };
+        }
+
+      },
+      {
+        path: '/viewDetails',
+        element: <ViewDetails></ViewDetails>
+      }
     ]
 
   },

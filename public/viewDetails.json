@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "title": "Teeth Whitening",
+        "image": "https://i.ibb.co/rK9TTh2q/shedrack-salami-GKMQtx-Re-Kg-unsplash.jpg",
+        "summary": "Safe and effective teeth whitening for a brighter smile.",
+        "description": "Our professional teeth whitening treatment removes years of stains caused by coffee, tea, wine, and smoking. The procedure is quick, painless, and can brighten your teeth by several shades in just one visit.",
+        "price": "$120",
+        "duration": "45 minutes",
+        "benefits": [
+            "Quick and non-invasive",
+            "Noticeable results after one session",
+            "Boosts confidence and appearance"
+        ],
+        "precautions": [
+            "Avoid colored foods/drinks for 24 hours",
+            "Mild sensitivity may occur temporarily"
+        ],
+        "doctor": {
+            "name": "Dr. Puja Datta",
+            "photo": "https://i.ibb.co/994rpHbB/healthcare-workers-preventing-virus-quarantine-campaign-concept-cheerful-friendly-asian-female-physi.jpg",
+            "specialization": "Cosmetic Dentist"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Root Canal Treatment",
+        "image": "https://i.ibb.co/Sj9kxjf/peter-kasprzyk-U1gvhq-VQ2k-Q-unsplash.jpg",
+        "summary": "Save your natural tooth and relieve dental pain.",
+        "description": "A root canal is needed when the pulp inside your tooth becomes infected. Our expert endodontists perform root canals using modern tools and pain management techniques to ensure a stress-free experience.",
+        "price": "$250 - $500",
+        "duration": "1-2 hours",
+        "benefits": [
+            "Relieves pain caused by infection",
+            "Prevents tooth loss",
+            "Restores chewing function"
+        ],
+        "precautions": [
+            "Eat soft foods after treatment",
+            "Avoid chewing on the treated tooth until fully restored"
+        ],
+        "doctor": {
+            "name": "Dr. Ankit sharma",
+            "photo": "https://i.ibb.co/fG4KxbpB/portrait-hansome-young-male-doctor-man.jpg",
+            "specialization": "Endodontist"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Dental Implants",
+        "image": "https://i.ibb.co/DfbBGP3W/caroline-lm-QA9f-RIi6s-Fw-unsplash.jpg",
+        "summary": "Permanent solution for missing teeth with natural look.",
+        "description": "Dental implants are artificial tooth roots made of titanium that are surgically placed into the jawbone. They offer a permanent, durable, and natural-looking solution to tooth loss.",
+        "price": "$900 per implant",
+        "duration": "Multiple visits (over 3-6 months)",
+        "benefits": [
+            "Permanent and stable solution",
+            "Preserves jawbone and facial structure",
+            "No impact on surrounding teeth"
+        ],
+        "precautions": [
+            "Good oral hygiene required",
+            "Avoid smoking to ensure proper healing"
+        ],
+        "doctor": {
+            "name": "Dr. Ayush gupta",
+            "photo": "https://i.ibb.co/8493Td2C/pexels-tima-miroshnichenko-5452293.jpg",
+            "specialization": "Implantologist"
+        }
+    }
+]

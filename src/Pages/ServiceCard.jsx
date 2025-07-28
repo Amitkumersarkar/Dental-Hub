@@ -25,8 +25,8 @@ const ServiceCard = ({ service }) => {
                 )}
 
                 <button className="btn btn-primary w-2/4 mx-auto mt-3">
-                    <NavLink to='/treatment'>
-                        CheckOut Now
+                    <NavLink to='/details'>
+                        View Details
                     </NavLink>
                 </button>
             </div>

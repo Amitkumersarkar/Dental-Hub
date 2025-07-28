@@ -23,6 +23,9 @@ const Navbar = () => {
                 <Link to='/treatment'>
                     <a className="link link-hover"> Treatment</a>
                 </Link>
+                <Link to='/details'>
+                    <a className="link link-hover">Details</a>
+                </Link>
                 <Link to='/appointment'>
                     <a className="link link-hover"> Appointment</a>
                 </Link>

@@ -1,4 +1,3 @@
-
 const Feedback = ({ feedbackDa }) => {
     const {
         feedback,
@@ -7,33 +6,35 @@ const Feedback = ({ feedbackDa }) => {
         photo,
         rating
     } = feedbackDa;
-    console.log(feedbackDa);
+
     return (
-        <div className="card bg-blue-800 w-96 shadow-sm">
-            <figure className="px-10 pt-10">
-                <img
-                    src={photo}
-                    alt="Photo"
-                    className="rounded-xl" />
-            </figure>
-            <div className="card-body items-center text-center">
-                <p>{name}</p>
-                <p>{location}</p>
-                <h2 className="card-title">Feedback</h2>
-                <p>{feedback}</p>
-                <div>
-                    <div className="rating">
-                        <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" aria-label="1 star" />
-                        <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" aria-label="2 star" defaultChecked />
-                        <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" aria-label="3 star" />
-                        <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" aria-label="4 star" />
-                        <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" aria-label="5 star" />
-                        {/* <p>{rating}</p> */}
-                    </div>
+        <div className="w-full max-w-sm bg-gradient-to-br from-blue-900 to-cyan-700 text-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+            <div className="flex flex-col items-center p-6">
+                <div className="mb-4">
+                    <img
+                        src={photo}
+                        alt={name}
+                        className="w-20 h-20 rounded-full object-cover border-4 border-cyan-400 shadow-md"
+                    />
                 </div>
-                {/* <div className="card-actions">
-                    <button className="btn btn-primary">Buy Now</button>
-                </div> */}
+
+                <div className="text-center">
+                    <h3 className="text-lg font-bold">{name}</h3>
+                    <p className="text-sm text-cyan-200">{location}</p>
+                </div>
+
+                <div className="mt-4 text-center">
+                    <h4 className="text-base font-semibold mb-1 text-cyan-300">Feedback</h4>
+                    <p className="text-sm text-gray-200 italic leading-relaxed line-clamp-4">“{feedback}”</p>
+                </div>
+
+                <div className="mt-4 flex justify-center gap-1">
+                    {[...Array(5)].map((_, i) => (
+                        <span key={i} className={i < rating ? "text-yellow-400" : "text-gray-500"}>
+                            ★
+                        </span>
+                    ))}
+                </div>
             </div>
         </div>
     );
