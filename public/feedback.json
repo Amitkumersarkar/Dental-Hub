@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Sarah Ahmed",
-        "photo": "/images/customers/sarah.jpg",
+        "name": "Amit Sarkar",
+        "photo": "https://i.ibb.co/Y4wDpPvC/mypicture.png",
         "rating": 5,
         "feedback": "The staff was incredibly kind and professional. I had my teeth whitened and the results were amazing!",
         "date": "2025-07-10",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Jonathan Roy",
-        "photo": "/images/customers/jonathan.jpg",
+        "photo": "https://i.ibb.co/0jsNZJvy/myphoto2.jpg",
         "rating": 4,
         "feedback": "Got a root canal done. I was nervous, but they made the process smooth and almost painless.",
         "date": "2025-06-21",
@@ -19,8 +19,8 @@
     },
     {
         "id": 3,
-        "name": "Mehjabin Khan",
-        "photo": "/images/customers/mehjabin.jpg",
+        "name": "Ankita Roy",
+        "photo": "https://i.ibb.co/HpYsST0R/portrait-young-stylish-laughing-model-black-casual-summer-clothes-cap-with-natural-makeup-white.jpg",
         "rating": 5,
         "feedback": "As a mother, I loved how they handled my son's dental checkup. Very child-friendly environment!",
         "date": "2025-05-14",
@@ -28,8 +28,8 @@
     },
     {
         "id": 4,
-        "name": "Arif Rahman",
-        "photo": "/images/customers/arif.jpg",
+        "name": "Anupom Biswas",
+        "photo": "https://i.ibb.co/mFGW5nx1/myphoto.jpg",
         "rating": 4,
         "feedback": "Professional team with modern equipment. Had braces installed and the whole journey has been great so far.",
         "date": "2025-03-03",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "name": "Farzana Yasmin",
+        "name": "Sukumar Biswas",
         "photo": "/images/customers/farzana.jpg",
         "rating": 5,
         "feedback": "Best dental experience ever! Clean clinic, polite doctors, and excellent service.",
