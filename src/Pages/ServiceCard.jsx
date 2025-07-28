@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const ServiceCard = ({ service }) => {
     const { title, description, image, price, features } = service;
 
@@ -21,7 +23,12 @@ const ServiceCard = ({ service }) => {
                         ))}
                     </ul>
                 )}
-                <button className="btn btn-primary mt-3">CheckOut Now</button>
+
+                <button className="btn btn-primary w-2/4 mx-auto mt-3">
+                    <NavLink to='/treatment'>
+                        CheckOut Now
+                    </NavLink>
+                </button>
             </div>
         </div>
     );
