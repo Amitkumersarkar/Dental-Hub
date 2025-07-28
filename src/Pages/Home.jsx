@@ -1,25 +1,18 @@
-import { NavLink} from "react-router-dom";
-import bannerImage from "../../public/assets/banner.png"
+import { useLoaderData } from "react-router-dom";
+import Banner from "../Components/Banner";
+import ServiceCard from "./ServiceCard";
+
 const Home = () => {
-    
+    const serviceData = useLoaderData();
+    console.log(serviceData);
     return (
-        <div className="hero bg-base-200 min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <img className="w-150 "
-                    src={bannerImage}
-                />
-                <div>
-                    <h1 className="text-5xl font-bold text-cyan-500">Brighten Your Smile
-                        with Expert Care!</h1>
-                    <p className="py-6 text-gray-300">
-                        From routine check-ups to advanced procedures, our experienced team ensures your dental health
-                    </p>
-                    <NavLink to='/services'>
-                        <button className="btn btn-primary">Get Explore</button>
-                    </NavLink>
-                </div>
+        <div>
+            <Banner></Banner>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+                {
+                    serviceData.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
+                }
             </div>
-       
         </div>
     );
 };

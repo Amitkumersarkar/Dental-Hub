@@ -4,7 +4,7 @@
         "title": "Teeth Whitening",
         "slug": "teeth-whitening",
         "description": "Brighten your smile with our professional in-office and take-home teeth whitening treatments.",
-        "image": "/images/services/teeth-whitening.jpg",
+        "image": "https://images.unsplash.com/photo-1616536814040-a3f7b97a3500?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "$120",
         "features": [
             "Safe and effective procedure",
@@ -17,7 +17,7 @@
         "title": "Dental Implants",
         "slug": "dental-implants",
         "description": "Restore missing teeth with natural-looking and durable dental implants for long-lasting confidence.",
-        "image": "/images/services/dental-implants.jpg",
+        "image": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "$900 per implant",
         "features": [
             "Titanium root placement",
@@ -30,7 +30,7 @@
         "title": "Braces & Orthodontics",
         "slug": "braces-orthodontics",
         "description": "Correct misaligned teeth and bites with modern orthodontic solutions including metal braces and clear aligners.",
-        "image": "/images/services/braces.jpg",
+        "image": "https://images.unsplash.com/photo-1598531228433-d9f0cb960816?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "Starting at $1500",
         "features": [
             "Traditional and invisible braces",
@@ -43,7 +43,7 @@
         "title": "Root Canal Treatment",
         "slug": "root-canal-treatment",
         "description": "Relieve tooth pain and save damaged teeth with expert root canal therapy performed with precision.",
-        "image": "/images/services/root-canal.jpg",
+        "image": "https://images.unsplash.com/photo-1562332328-13fe756de51a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "$250 - $500",
         "features": [
             "Painless and efficient",
@@ -56,7 +56,7 @@
         "title": "Dental Cleaning & Polishing",
         "slug": "dental-cleaning",
         "description": "Keep your teeth and gums healthy with regular cleaning and polishing by our skilled hygienists.",
-        "image": "/images/services/cleaning.jpg",
+        "image": "https://images.unsplash.com/photo-1684607633080-df59e6874367?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "$60 per session",
         "features": [
             "Plaque and tartar removal",
@@ -69,7 +69,7 @@
         "title": "Pediatric Dentistry",
         "slug": "pediatric-dentistry",
         "description": "Gentle and fun dental care for children to ensure a lifetime of healthy smiles.",
-        "image": "/images/services/kids-dentistry.jpg",
+        "image": "https://images.unsplash.com/photo-1660737216886-f44008e5c9fe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": "Varies by treatment",
         "features": [
             "Child-friendly environment",
